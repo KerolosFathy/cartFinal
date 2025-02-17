@@ -2,14 +2,14 @@
   "name": "final_project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Fido2004.github.io/react-gh-pages/FinalProject",
+  "homepage": "https://Fido2004.github.io/FinalProject",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
